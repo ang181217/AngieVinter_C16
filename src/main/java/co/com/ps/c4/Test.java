@@ -3,11 +3,13 @@ package co.com.ps.c4;
 public class Test {
     public static void main(String[] args ) {
 
-        Repuestos Repuestos2 = new Repuestos ();
+        Persona persona2 =new Persona("1144172883");
 
-        Repuestos2.setNombre("Angie");
-        Repuestos2.setEdad(21);
-        Repuestos2.setProfesion("Programado/a");
+        persona2.setEdad(10);
+        persona2.setNombre("Nombre");
 
     }
+
+
+
 }

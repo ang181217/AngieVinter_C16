@@ -1,4 +1,4 @@
-package co.com.ps.c2;
+package co.com.ps.c1;
 
 
 public class HolaMundo {

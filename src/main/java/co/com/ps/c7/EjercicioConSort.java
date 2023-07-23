@@ -2,7 +2,7 @@ package co.com.ps.c7;
 
 import java.util.Arrays;
 
-public class Taller {
+public class EjercicioConSort {
 
     public static void main(String[] args) {
 
@@ -18,8 +18,10 @@ public class Taller {
         num[4] = 3;
         num[5] = 5;
 
+        System.out.println("Datos en desorden: ");
         System.out.println(Arrays.toString(num));
         Arrays.sort(num);
+        System.out.println("Datos ordenados: ");
         System.out.println(Arrays.toString(num));
 
 
